@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  
+security:
+  oauth2:
+    client:
+      client-id: XYZ
+      client-secret: XYZ
+    access_token:
+      validity: 60
+      
+keystore:
+  file: FILE
+  storepass: XYZ
+  key-alias: XYZ
+  key-secret: XYZ
